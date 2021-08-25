@@ -9,16 +9,18 @@
   </head>
   <body>
     <div class="container">
-      <h1>Bin2Dec</h1>
-      <h2>Binary to Decimal Converter</h2>
+      <div class="header">
+        <h1>Bin2Dec</h1>
+      <h3>Binary to Decimal Converter</h3>
+      </div>
       <div class="inputs">
         <div class="input">
-          <p>Binary: </p>
-          <input type="number" name="binary_input" id="binary_input"/>
+          <!-- <p>Binary: </p> -->
+          <input type="number" name="binary_input" id="binary_input" placeholder="Binary"/>
         </div>
         <div class="input">
-          <p>Decimal: </p>
-          <input type="number" name="decimal_input" id="decimal_input" readonly/>
+          <!-- <p>Decimal: </p> -->
+          <input type="number" name="decimal_input" id="decimal_input" placeholder="Decimal" readonly/>
         </div class="input">
         <button onclick="convert()">Convert</button>
       </div>
