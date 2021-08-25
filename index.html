@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bin2Dec</title>
-</head>
-<body>
-  <h1>Bin2Dec</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bin2Dec</h1>
+      <h2>Binary to Decimal Converter</h2>
+      <div class="inputs">
+        <div class="input">
+          <p>Binary: </p>
+          <input type="number" name="binary_input" id="binary_input" />
+        </div>
+        <div class="input">
+          <p>Decimal: </p>
+          <input type="number" name="decimal_input" id="decimal_input" />
+        </div class="input">
+        <button onclick="convert()">Convert</button>
+      </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+  </body>
 </html>
